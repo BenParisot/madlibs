@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MadLibs!</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <h1>A Bedtime Story</h1>
@@ -11,7 +12,7 @@
     <p>
         <label>
             Adjective
-            <input id="adj-1">
+            <input id="adj">
         </label>
     </p>
 
@@ -58,10 +59,11 @@
     </p>
 
     <p>
-        <button onclick="greet()">Get Your Story</button>
+        <button onclick="story()">Get Your Story</button>
     </p>
     
-    <p id="greeting">Enter your name to get a greeting!</p>
+    <p id="story1"></p>
+    <p id="story2"></p>
 
     <script src="main.js"></script></body>
 </html>
