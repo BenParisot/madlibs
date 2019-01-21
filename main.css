@@ -29,3 +29,9 @@ button:hover {
     background-color: lightblue;
     color: darkcyan;
     border: 2px solid darkcyan;
+}
+
+.word-style {
+    font-weight: bold;
+    text-decoration: underline;
+}
