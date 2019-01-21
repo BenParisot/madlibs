@@ -14,6 +14,6 @@ function story() {
     var storyTeller1 = document.getElementById('story1');
     var storyTeller2 = document.getElementById('story2');    
     
-    storyTeller1.innerHTML = story1;
-    storyTeller2.innerHTML = story2;
+    storyTeller1.innerHTML = '<p class="results">' + story1 + '</p>';
+    storyTeller2.innerHTML = '<p class="results">' + story2 + '</p>';
 }
